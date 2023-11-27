@@ -3,6 +3,7 @@
 
 // chiedere all'utente una parola
 const userWord = prompt("inserisci una parola");
+console.log(userWord);
 
 // creare funzione che controlla se una parola è palidroma
 function palindroma (userWord) {
