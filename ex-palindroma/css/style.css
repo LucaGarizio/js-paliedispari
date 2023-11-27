@@ -1,0 +1,45 @@
+body{
+    background-color: #333;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.row{
+    width: 70%;
+    border: 2px solid black;
+    height: 150px;
+    margin-bottom: 10px; 
+    background-color: red;
+    color: black;
+}
+
+.col-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+input{
+    font-size: 40px;
+    text-align: center;
+}
+
+.col-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 20px;
+}
+
+
+
